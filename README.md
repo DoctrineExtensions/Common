@@ -1,5 +1,7 @@
 # DoctrineExtensions/Common
 
+![Build Status](https://api.travis-ci.org/DoctrineExtensions/Common.svg?branch=master "Build Status")
+
 This package provides common code user among all DoctrineExtensions packages and is usually automatically required by
 extensions, so you don't need to require it yourself.
 
