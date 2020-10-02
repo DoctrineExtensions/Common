@@ -106,6 +106,4 @@ abstract class AbstractAnnotation implements AnnotationInterface
 
         return $mapping && in_array($mapping['type'], $this->validTypes);
     }
-
-
 }
