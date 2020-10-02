@@ -104,7 +104,7 @@ abstract class MappedEventSubscriber implements EventSubscriber
             if (!isset($this->adapters[$m[1]])) {
                 $adapterClass = $this->getNamespace().'\\Common\\Mapping\\Event\\Adapter\\'.$m[1];
                 if (!class_exists($adapterClass)) {
-                    $adapterClass = 'DoctrineExtensions\\Common\\Mapping\\Event\\Adapter\\'.$m[1];
+                    $adapterClass = 'Arodax\\Doctrine\\Extensions\\Common\\Mapping\\Event\\Adapter\\'.$m[1];
                 }
                 $this->adapters[$m[1]] = new $adapterClass();
             }
@@ -243,7 +243,7 @@ abstract class MappedEventSubscriber implements EventSubscriber
             $reader = new \Doctrine\Common\Annotations\AnnotationReader();
 
             \Doctrine\Common\Annotations\AnnotationRegistry::registerAutoloadNamespace(
-                    'DoctrineExtensions\\\Mapping\\Annotation',
+                    'Arodax\\Doctrine\\Extensions\\Common\\Mapping\\Annotation',
                     __DIR__ . '/../src/'
                 );
 
