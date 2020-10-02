@@ -59,7 +59,7 @@ interface AdapterInterface
     /**
      * Get the root object class, handles inheritance
      *
-     * @param \Doctrine\Common\Persistence\Mapping\ClassMetadata $meta
+     * @param \Doctrine\Persistence\Mapping\ClassMetadata $meta
      *
      * @return string
      */
@@ -68,7 +68,7 @@ interface AdapterInterface
     /**
      * Get used object manager
      *
-     * @return \Doctrine\Common\Persistence\ObjectManager
+     * @return \Doctrine\Persistence\ObjectManager
      */
     public function getObjectManager();
 
@@ -95,7 +95,7 @@ interface AdapterInterface
     /**
      * Get the single identifier field name
      *
-     * @param \Doctrine\Common\Persistence\Mapping\ClassMetadata $meta
+     * @param \Doctrine\Persistence\Mapping\ClassMetadata $meta
      *
      * @return string
      */
@@ -105,7 +105,7 @@ interface AdapterInterface
      * Recompute the single object changeset from a UnitOfWork
      *
      * @param UnitOfWork                                         $uow
-     * @param \Doctrine\Common\Persistence\Mapping\ClassMetadata $meta
+     * @param \Doctrine\Persistence\Mapping\ClassMetadata $meta
      * @param object                                             $object
      *
      * @return void

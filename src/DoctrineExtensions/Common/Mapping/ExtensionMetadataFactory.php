@@ -18,11 +18,11 @@ use DoctrineExtensions\Common\Mapping\Driver\ChainMapping;
 use DoctrineExtensions\Common\Mapping\Driver\DriverInterface;
 use DoctrineExtensions\Common\Exception\RuntimeException;
 use DoctrineExtensions\Common\Mapping\Driver\AbstractFile as FileDriver;
-use Doctrine\Common\Persistence\Mapping\Driver\DefaultFileLocator;
-use Doctrine\Common\Persistence\Mapping\Driver\SymfonyFileLocator;
-use Doctrine\Common\Persistence\Mapping\Driver\MappingDriver;
-use Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\Mapping\Driver\DefaultFileLocator;
+use Doctrine\Persistence\Mapping\Driver\SymfonyFileLocator;
+use Doctrine\Persistence\Mapping\Driver\MappingDriver;
+use Doctrine\Persistence\Mapping\Driver\MappingDriverChain;
+use Doctrine\Persistence\ObjectManager;
 
 /**
  * The extension metadata factory is responsible for extension driver

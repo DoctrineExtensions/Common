@@ -13,7 +13,7 @@ declare(strict_types = 1);
 
 namespace DoctrineExtensions\Common\Mapping\Driver;
 
-use Doctrine\Common\Persistence\Mapping\ClassMetadata;
+use Doctrine\Persistence\Mapping\ClassMetadata;
 
 /**
  * Provides getRelatedClassName() method for abstract driver classes

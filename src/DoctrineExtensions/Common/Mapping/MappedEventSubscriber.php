@@ -18,7 +18,7 @@ use DoctrineExtensions\Common\Exception\InvalidArgumentException;
 use Doctrine\Common\Annotations\Reader;
 use Doctrine\Common\Cache\ArrayCache;
 use Doctrine\Common\EventSubscriber;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Doctrine\Common\EventArgs;
 
 /**

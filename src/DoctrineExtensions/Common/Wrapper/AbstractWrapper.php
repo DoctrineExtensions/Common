@@ -12,7 +12,7 @@
 namespace DoctrineExtensions\Common\Wrapper;
 
 use DoctrineExtensions\Common\Exception\UnsupportedObjectManagerException;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ORM\EntityManagerInterface;
 
@@ -44,7 +44,7 @@ abstract class AbstractWrapper implements WrapperInterface
     /**
      * Object manager instance
      *
-     * @var \Doctrine\Common\Persistence\ObjectManager
+     * @var \Doctrine\Persistence\ObjectManager
      */
     protected $om;
 

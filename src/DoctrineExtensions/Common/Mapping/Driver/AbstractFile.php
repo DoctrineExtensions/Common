@@ -13,8 +13,8 @@ declare(strict_types = 1);
 
 namespace DoctrineExtensions\Common\Mapping\Driver;
 
-use Doctrine\Common\Persistence\Mapping\Driver\FileDriver;
-use Doctrine\Common\Persistence\Mapping\Driver\FileLocator;
+use Doctrine\Persistence\Mapping\Driver\FileDriver;
+use Doctrine\Persistence\Mapping\Driver\FileLocator;
 
 /**
  * The mapping FileDriver abstract class, defines the
@@ -91,7 +91,7 @@ abstract class AbstractFile implements DriverInterface
      *
      * @return null|array|object
      *
-     * @throws \Doctrine\Common\Persistence\Mapping\MappingException
+     * @throws \Doctrine\Persistence\Mapping\MappingException
      */
     protected function _getMapping($className)
     {
