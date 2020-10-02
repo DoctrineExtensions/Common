@@ -3,13 +3,11 @@
     "description": "Common code shared among packages from DoctrineExtensions",
     "type": "library",
     "require": {
-        "doctrine/common": "^2.10",
-        "php": "^7.2"
+        "doctrine/common": "3.0.*",
+        "php": "^7.4"
     },
     "require-dev": {
-        "doctrine/mongodb": "^1.6",
-        "doctrine/mongodb-odm": "^1.2",
-        "doctrine/orm": "^2.6",
+        "doctrine/orm": "^2.7",
         "symfony/yaml": "^4.2",
         "phpunit/phpunit": "^7.5"
     },
@@ -17,6 +15,7 @@
         "ext-mongo": "to use the extensions with the MongoDB ODM",
         "ext-pdo": "to use the extensions with the ORM",
         "doctrine/mongodb-odm": "to use the extensions with the MongoDB ODM",
+        "doctrine/mongodb": "to use the extensions with the MongoDB ODM",
         "doctrine/orm": "to use the extensions with the ORM"
     },
     "support": {
