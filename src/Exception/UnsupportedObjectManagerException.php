@@ -11,15 +11,15 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Exception;
+namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
- * Exception occurs on invalid mapping configuration
+ * Exception thrown if an error which can only be found on runtime occurs.
  *
  * @author Daniel Chodusov <daniel@chodusov.com>
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
-class InvalidMappingException extends \Exception implements ExceptionInterface
+class UnsupportedObjectManagerException extends \Exception implements ExceptionInterface
 {
     //
 }

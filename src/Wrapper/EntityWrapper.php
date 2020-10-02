@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace DoctrineExtensions\Common\Wrapper;
+namespace Arodax\Doctrine\Extensions\Common\Wrapper;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Proxy\Proxy;

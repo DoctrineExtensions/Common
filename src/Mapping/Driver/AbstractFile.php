@@ -11,7 +11,7 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Mapping\Driver;
+namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 
 use Doctrine\Persistence\Mapping\Driver\FileDriver;
 use Doctrine\Persistence\Mapping\Driver\FileLocator;

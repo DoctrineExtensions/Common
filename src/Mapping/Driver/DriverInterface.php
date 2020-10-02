@@ -11,7 +11,7 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Mapping\Driver;
+namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 
 /**
  * The mapping driver abstract class, defines the

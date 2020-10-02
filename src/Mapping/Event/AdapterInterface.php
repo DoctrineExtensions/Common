@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace DoctrineExtensions\Common\Mapping\Event;
+namespace Arodax\Doctrine\Extensions\Common\Mapping\Event;
 
 use Doctrine\Common\EventArgs;
 use Doctrine\ORM\UnitOfWork;

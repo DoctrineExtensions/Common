@@ -11,13 +11,13 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Mapping;
+namespace Arodax\Doctrine\Extensions\Common\Mapping;
 
-use DoctrineExtensions\Common\Mapping\Driver\AnnotationInterface;
-use DoctrineExtensions\Common\Mapping\Driver\ChainMapping;
-use DoctrineExtensions\Common\Mapping\Driver\DriverInterface;
-use DoctrineExtensions\Common\Exception\RuntimeException;
-use DoctrineExtensions\Common\Mapping\Driver\AbstractFile as FileDriver;
+use Arodax\Doctrine\Extensions\Common\Mapping\Driver\AnnotationInterface;
+use Arodax\Doctrine\Extensions\Common\Mapping\Driver\ChainMapping;
+use Arodax\Doctrine\Extensions\Common\Mapping\Driver\DriverInterface;
+use Arodax\Doctrine\Extensions\Common\Exception\RuntimeException;
+use Arodax\Doctrine\Extensions\Common\Mapping\Driver\AbstractFile as FileDriver;
 use Doctrine\Persistence\Mapping\Driver\DefaultFileLocator;
 use Doctrine\Persistence\Mapping\Driver\SymfonyFileLocator;
 use Doctrine\Persistence\Mapping\Driver\MappingDriver;

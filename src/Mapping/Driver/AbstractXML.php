@@ -11,9 +11,9 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Mapping\Driver;
+namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 
-use DoctrineExtensions\Common\Exception\InvalidMappingException;
+use Arodax\Doctrine\Extensions\Common\Exception\InvalidMappingException;
 use SimpleXMLElement;
 
 /**

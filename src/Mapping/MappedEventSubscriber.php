@@ -11,10 +11,10 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Mapping;
+namespace Arodax\Doctrine\Extensions\Common\Mapping;
 
-use DoctrineExtensions\Common\Mapping\Event\AdapterInterface;
-use DoctrineExtensions\Common\Exception\InvalidArgumentException;
+use Arodax\Doctrine\Extensions\Common\Mapping\Event\AdapterInterface;
+use Arodax\Doctrine\Extensions\Common\Exception\InvalidArgumentException;
 use Doctrine\Common\Annotations\Reader;
 use Doctrine\Common\Cache\ArrayCache;
 use Doctrine\Common\EventSubscriber;

@@ -11,15 +11,15 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Exception;
+namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
- * Exception thrown if an argument is not of the expected type.
+ * Exception occurs on invalid mapping configuration
  *
  * @author Daniel Chodusov <daniel@chodusov.com>
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
-class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
+class InvalidMappingException extends \Exception implements ExceptionInterface
 {
     //
 }

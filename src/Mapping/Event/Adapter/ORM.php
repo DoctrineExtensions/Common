@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace DoctrineExtensions\Common\Mapping\Event\Adapter;
+namespace Arodax\Doctrine\Extensions\Common\Mapping\Event\Adapter;
 
-use DoctrineExtensions\Common\Exception\RuntimeException;
+use Arodax\Doctrine\Extensions\Common\Exception\RuntimeException;
 use Doctrine\Common\EventArgs;
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\Event\LifecycleEventArgs;
-use DoctrineExtensions\Common\Mapping\Event\AdapterInterface;
+use Arodax\Doctrine\Extensions\Common\Mapping\Event\AdapterInterface;
 
 /**
  * Doctrine event adapter for ORM specific

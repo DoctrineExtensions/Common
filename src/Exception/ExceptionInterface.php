@@ -11,7 +11,7 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Exception;
+namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
  * Interface for distinct all doctrine extensions exceptions from other exceptions.

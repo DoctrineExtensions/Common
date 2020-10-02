@@ -1,6 +1,6 @@
 {
-    "name": "doctrine-extensions/common",
-    "description": "Common code shared among packages from DoctrineExtensions",
+    "name": "arodax/doctrine-extensions-common",
+    "description": "Common code shared among arodax/doctrine-extesions-* packages.",
     "type": "library",
     "require": {
         "doctrine/common": "3.0.*",
@@ -8,8 +8,8 @@
     },
     "require-dev": {
         "doctrine/orm": "^2.7",
-        "symfony/yaml": "^4.2",
-        "phpunit/phpunit": "^7.5"
+        "symfony/yaml": "^4.2 | ^5.1",
+        "phpunit/phpunit": "^8.0"
     },
     "suggest": {
         "ext-mongo": "to use the extensions with the MongoDB ODM",
@@ -19,10 +19,12 @@
         "doctrine/orm": "to use the extensions with the ORM"
     },
     "support": {
-        "source": "https://github.com/DoctrineExtensions/common.git"
+        "source": "https://github.com/arodax/doctrine-extensions-common.git"
     },
     "autoload": {
-        "psr-4": { "DoctrineExtensions\\Common\\": "src/DoctrineExtensions/Common" }
+        "psr-4": {
+            "Arodax\\Doctrine\\Extensions\\Common\\": "src"
+        }
     },
     "license": "MIT",
     "authors": [

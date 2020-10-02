@@ -11,10 +11,10 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Mapping\Driver;
+namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 
 use Doctrine\ORM\Mapping\ClassMetadataInfo;
-use DoctrineExtensions\Common\Exception\InvalidMappingException;
+use Arodax\Doctrine\Extensions\Common\Exception\InvalidMappingException;
 
 /**
  * This is an abstract class to implement common functionality

@@ -11,15 +11,15 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Exception;
+namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
- * Exception thrown if an error which can only be found on runtime occurs.
+ * Exception thrown if an argument is not of the expected type.
  *
  * @author Daniel Chodusov <daniel@chodusov.com>
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
-class UnsupportedObjectManagerException extends \Exception implements ExceptionInterface
+class InvalidArgumentException extends \InvalidArgumentException implements ExceptionInterface
 {
     //
 }

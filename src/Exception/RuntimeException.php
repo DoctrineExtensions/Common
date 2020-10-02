@@ -11,7 +11,7 @@
 
 declare(strict_types = 1);
 
-namespace DoctrineExtensions\Common\Exception;
+namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
  * Exception thrown if an error which can only be found on runtime occurs.

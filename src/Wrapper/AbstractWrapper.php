@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace DoctrineExtensions\Common\Wrapper;
+namespace Arodax\Doctrine\Extensions\Common\Wrapper;
 
-use DoctrineExtensions\Common\Exception\UnsupportedObjectManagerException;
+use Arodax\Doctrine\Extensions\Common\Exception\UnsupportedObjectManagerException;
 use Doctrine\Persistence\ObjectManager;
 use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ORM\EntityManagerInterface;
