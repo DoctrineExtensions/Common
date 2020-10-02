@@ -1,6 +1,6 @@
 # arodax/doctrine-extensions-common
 
-![Build Status](https://api.travis-ci.org/DoctrineExtensions/Common.svg?branch=master "Build Status")
+![Build Status](https://api.travis-ci.org/arodax/doctrine-extensions-common.svg?branch=master "Build Status")
 
 This package provides common, shared code used among arodax/doctrine-extensions-* packages.
 
