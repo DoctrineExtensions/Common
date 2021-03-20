@@ -169,7 +169,7 @@ class ExtensionMetadataFactory
             $driverClassName = $this->extensionNamespace.'\Mapping\Driver\\'.$driverName;
 
             if (!class_exists($driverClassName)) {
-                $driverClassName = $this->extensionNamespace.'\Mapping\Driver\AbstractAnnotation';
+                $driverClassName = $this->extensionNamespace.'\Mapping\Driver\Annotation';
                 if (!class_exists($driverClassName)) {
                     throw new RuntimeException("Failed to fallback to annotation driver: ({$driverClassName}), extension driver was not found.");
                 }
