@@ -14,6 +14,9 @@ declare(strict_types = 1);
 namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Exception\InvalidArgumentException
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Exception thrown if an argument is not of the expected type.
  *
  * @author Daniel Chodusov <daniel@chodusov.com>

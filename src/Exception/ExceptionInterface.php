@@ -14,6 +14,9 @@ declare(strict_types = 1);
 namespace Arodax\Doctrine\Extensions\Common\Exception;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Exception\ExceptionInterface
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Interface for distinct all doctrine extensions exceptions from other exceptions.
  *
  * @author Daniel Chodusov <daniel@chodusov.com>
