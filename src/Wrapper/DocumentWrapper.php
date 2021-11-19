@@ -15,6 +15,9 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Proxy\Proxy;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Common\Wrapper\DocumentWrapper
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Wraps document or proxy for more convenient
  * manipulation
  *

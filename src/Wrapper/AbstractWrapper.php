@@ -19,6 +19,9 @@ use Doctrine\ORM\EntityManagerInterface;
 
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Common\Wrapper\AbstractWrapper
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Wraps entity or proxy for more convenient
  * manipulation
  *

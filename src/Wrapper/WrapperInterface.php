@@ -12,6 +12,9 @@
 namespace Arodax\Doctrine\Extensions\Common\Wrapper;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Common\Wrapper\WrpperInterface
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Object wrapper interface
  *
  * @author Gediminas Morkevicius <gediminas.morkevicius@gmail.com>
