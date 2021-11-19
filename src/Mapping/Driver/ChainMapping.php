@@ -14,6 +14,9 @@ declare(strict_types = 1);
 namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Driver\ChainMapping
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * The chain mapping driver enables chained
  * extension mapping driver support
  *

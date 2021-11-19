@@ -32,5 +32,6 @@
             "name": "Daniel Chodusov",
             "email": "daniel@chodusov.com"
         }
-    ]
+    ],
+    "abandoned": "arodax/doctrine-extensions-tree"
 }

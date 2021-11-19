@@ -18,6 +18,9 @@ use Doctrine\ODM\MongoDB\DocumentManager;
 use Doctrine\ODM\MongoDB\Event\LifecycleEventArgs;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Event\Adapter\ODM
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Doctrine event adapter for ODM specific
  * event arguments
  *

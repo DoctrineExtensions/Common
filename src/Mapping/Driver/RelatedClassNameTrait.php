@@ -16,6 +16,9 @@ namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 use Doctrine\Persistence\Mapping\ClassMetadata;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Driver\RelatedClassNameTrait
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Provides getRelatedClassName() method for abstract driver classes
  *
  * @author Gediminas Morkevicius <gediminas.morkevicius@gmail.com>

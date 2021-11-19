@@ -17,6 +17,9 @@ use Arodax\Doctrine\Extensions\Common\Exception\InvalidMappingException;
 use SimpleXMLElement;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Driver\AbstractXML
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * The mapping XmlDriver abstract class, defines the
  * metadata extraction function common among all
  * all drivers used on these extensions by file based

@@ -17,6 +17,9 @@ use Doctrine\ORM\Mapping\ClassMetadataInfo;
 use Arodax\Doctrine\Extensions\Common\Exception\InvalidMappingException;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Driver\AbstractAnnotation
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * This is an abstract class to implement common functionality
  * for extension annotation mapping drivers.
  *

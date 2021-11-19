@@ -18,6 +18,9 @@ use Doctrine\ORM\Event\LifecycleEventArgs;
 use Arodax\Doctrine\Extensions\Common\Mapping\Event\AdapterInterface;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Event\Adapter\ORM
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Doctrine event adapter for ORM specific
  * event arguments
  *

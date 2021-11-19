@@ -25,6 +25,9 @@ use Doctrine\Persistence\Mapping\Driver\MappingDriverChain;
 use Doctrine\Persistence\ObjectManager;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\ExtensionMetadataFactory
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * The extension metadata factory is responsible for extension driver
  * initialization and fully reading the extension metadata
  *

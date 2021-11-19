@@ -22,6 +22,9 @@ use Doctrine\Persistence\ObjectManager;
 use Doctrine\Common\EventArgs;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\MappedEventSubscriber
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * This is extension of event subscriber class and is
  * used specifically for handling the extension metadata
  * mapping for extensions.

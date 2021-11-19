@@ -17,6 +17,9 @@ use Doctrine\Persistence\Mapping\Driver\FileDriver;
 use Doctrine\Persistence\Mapping\Driver\FileLocator;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Driver\AbstractFile
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * The mapping FileDriver abstract class, defines the
  * metadata extraction function common among
  * all drivers used on these extensions by file based

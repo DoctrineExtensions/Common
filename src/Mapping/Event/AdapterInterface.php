@@ -15,6 +15,9 @@ use Doctrine\Common\EventArgs;
 use Doctrine\ORM\UnitOfWork;
 
 /**
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Event\Adapter\TreeAdapterInterface
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
+ *
  * Doctrine event adapter interface is used
  * to retrieve common functionality for Doctrine
  * events

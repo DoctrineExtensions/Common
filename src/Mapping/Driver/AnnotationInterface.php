@@ -14,8 +14,8 @@ declare(strict_types = 1);
 namespace Arodax\Doctrine\Extensions\Common\Mapping\Driver;
 
 /**
- * Annotation driver interface, provides method
- * to set custom annotation reader.
+ * @deprecated Use Arodax\Doctrine\Extensions\Tree\Mapping\Driver\AnnotationInterface
+ * from arodax/doctrine-extensions-tree package. This package will be no longer needed since v4.0.0 version.
  *
  * @author Gediminas Morkevicius <gediminas.morkevicius@gmail.com>
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
